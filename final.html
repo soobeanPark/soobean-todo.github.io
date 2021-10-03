@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href = "final.css"></link>
+</head>
+
+<body>
+
+  <div id="box">
+    <div id ="weather">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  
+  <form id="login" class="hidden">
+    <input required id="name" type="text" placeholder="Please write your name">
+    <input id="button" type="submit" value="LogIn" style="color:darkgrey"> 
+  </form>
+
+<h1 id ="hello" class="hidden">hello</h1>
+
+<h1 id="clock">00:00:00</h1>
+
+
+<div id="list-container">
+  <form id="todo">
+    <input required id="todoinput" placeholder="Write your Todo-List and press Enter" size=35 maxlength="12">
+  </form>
+  <div id="list-box">
+    <ul id=todo-list></ul>
+  </div>
+</div>
+
+
+  <script src ="finalclock.js"></script>
+  <script src ="finalbackground.js"></script>
+  <script src ="finallogin.js"></script>
+  <script src ="finaltodo.js"></script>
+  <script src ="fianlweather.js"></script>
+</body>
+</html>
